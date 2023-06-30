@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Great+Vibes&family=Tilt+Prism&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1{
+    @apply text-5xl font-bold font-alkatra
+  }
+  h2{
+    @apply text-4xl font-bold font-alkatra
+  }
+  h3{
+    @apply text-3xl font-bold font-alkatra
+  }
+  h4{
+    @apply text-2xl font-bold font-alkatra
+  }
+  h5{
+    @apply text-xl font-bold font-alkatra
+  }
+  h6{
+    @apply text-lg font-bold font-alkatra
+  }
+}
+@layer components {
+  .menu_items{
+    @apply relative flex h-full items-center p-4 cursor-pointer font-bold hover:text-zinc-200 hover:bg-white/10
+  }
+}
